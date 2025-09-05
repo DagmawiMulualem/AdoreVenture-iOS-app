@@ -1,0 +1,278 @@
+# ===========================================
+# ADOREVENTURE - SECURITY & PRIVACY PROTECTION
+# ===========================================
+# This .gitignore protects sensitive business data, API keys,
+# and proprietary algorithms from being exposed publicly.
+
+# ===========================================
+# 🔐 CRITICAL SECURITY - NEVER COMMIT THESE
+# ===========================================
+
+# Firebase Configuration (CONTAINS API KEYS)
+GoogleService-Info.plist
+**/GoogleService-Info.plist
+firebase-config.json
+firebase-keys.json
+
+# API Keys & Secrets
+.env
+.env.local
+.env.production
+.env.staging
+secrets.json
+api-keys.json
+config.json
+
+# Stripe Configuration
+stripe-keys.json
+stripe-config.json
+**/stripe-keys.json
+
+# OpenAI & AI Service Keys
+openai-key.txt
+ai-keys.json
+**/ai-keys.json
+
+# Backend Environment Variables
+backend/.env
+backend/.env.local
+backend/.env.production
+backend/config.json
+
+# ===========================================
+# 💰 BUSINESS LOGIC PROTECTION
+# ===========================================
+
+# Payment & Subscription Logic
+**/StripePaymentService.swift
+**/PaymentView.swift
+**/ManageSubscriptionView.swift
+**/SubscriptionManager.swift
+**/SubscriptionPromptView.swift
+
+# AI & Recommendation Engine
+**/AIIdeasService.swift
+**/IdeaCacheService.swift
+**/PlacesAutocompleteService.swift
+
+# Admin & Analytics
+**/AdminDashboardService.swift
+**/AdminDashboardView.swift
+**/AdminPanelView.swift
+
+# Backend Business Logic
+backend/app.py
+functions/index.js
+**/functions/index.js
+
+# ===========================================
+# 🏗️ XCODE & iOS DEVELOPMENT
+# ===========================================
+
+# Xcode
+.DS_Store
+*/build/*
+*.pbxuser
+!default.pbxuser
+*.mode1v3
+!default.mode1v3
+*.mode2v3
+!default.mode2v3
+*.perspectivev3
+!default.perspectivev3
+xcuserdata/
+profile
+*.moved-aside
+DerivedData
+.idea/
+*.hmap
+*.xccheckout
+*.xcworkspace
+!default.xcworkspace
+
+# CocoaPods
+Pods/
+*.xcworkspace
+!default.xcworkspace
+
+# Carthage
+Carthage/Build
+
+# fastlane
+fastlane/report.xml
+fastlane/Preview.html
+fastlane/screenshots/**/*.png
+fastlane/test_output
+
+# Code Injection
+iOSInjectionProject/
+
+# ===========================================
+# 🔧 DEVELOPMENT & BUILD FILES
+# ===========================================
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+
+# Python
+__pycache__/
+*.py[cod]
+*$py.class
+*.so
+.Python
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# Docker
+.dockerignore
+Dockerfile.local
+
+# ===========================================
+# 📊 PRODUCTION DATA & ANALYTICS
+# ===========================================
+
+# User Data & Analytics
+user-data/
+analytics/
+logs/
+*.log
+
+# Database Dumps
+*.sql
+*.db
+*.sqlite
+
+# ===========================================
+# 🎨 ASSETS & MEDIA (OPTIONAL)
+# ===========================================
+
+# Uncomment if you want to protect proprietary assets
+# Assets.xcassets/
+# *.png
+# *.jpg
+# *.jpeg
+# *.gif
+# *.mp4
+# *.mov
+
+# ===========================================
+# 📱 APP STORE & DISTRIBUTION
+# ===========================================
+
+# Certificates & Provisioning
+*.p12
+*.mobileprovision
+*.cer
+*.certSigningRequest
+certificates/
+provisioning/
+
+# App Store Connect
+*.ipa
+*.dSYM.zip
+*.dSYM
+
+# ===========================================
+# 🔍 TESTING & DEBUGGING
+# ===========================================
+
+# Test Results
+TestResults/
+*.trx
+*.coverage
+*.coveragexml
+
+# Debug Files
+*.dSYM/
+*.su
+*.idb
+*.pdb
+
+# ===========================================
+# 📝 DOCUMENTATION (SENSITIVE)
+# ===========================================
+
+# Business Documentation
+BUSINESS_PLAN.md
+REVENUE_MODEL.md
+USER_ANALYTICS.md
+COMPETITOR_ANALYSIS.md
+
+# Technical Documentation (if contains sensitive info)
+DEPLOYMENT_GUIDE.md
+PRODUCTION_STRIPE_SETUP.md
+FIREBASE_SETUP.md
+
+# ===========================================
+# 🚀 DEPLOYMENT & INFRASTRUCTURE
+# ===========================================
+
+# Deployment Scripts (may contain secrets)
+deploy_*.sh
+deploy_*.py
+deploy_*.js
+
+# Infrastructure as Code
+terraform/
+*.tfstate
+*.tfstate.backup
+
+# ===========================================
+# 📋 BACKUP & TEMPORARY FILES
+# ===========================================
+
+# Backup Files
+*.backup
+*.bak
+*.tmp
+*.temp
+
+# Editor Files
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ===========================================
+# 🎯 SHOWCASE REPO SPECIFIC
+# ===========================================
+
+# Files to include in showcase (uncomment to exclude from showcase)
+# These are safe to show publicly
+# !README.md
+# !LICENSE
+# !showcase/
+# !docs/
+# !screenshots/
+# !demo/
+
+# ===========================================
+# 📞 SUPPORT & CONTACT
+# ===========================================
+
+# Contact Information
+contact.json
+support-keys.json
+
+# ===========================================
+# ⚠️  SECURITY REMINDER
+# ===========================================
+# 
+# Before committing, always check:
+# 1. No API keys or secrets in any files
+# 2. No production URLs or endpoints
+# 3. No user data or analytics
+# 4. No business logic or algorithms
+# 5. No payment or subscription code
+# 
+# Use: git status to see what will be committed
+# Use: git diff to review changes before committing
+# 
+# ===========================================

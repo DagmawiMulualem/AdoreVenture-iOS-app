@@ -1,0 +1,76 @@
+MIT License
+
+Copyright (c) 2024 Dagmawi Mulualem
+
+Permission is hereby granted, free of charge, to any person obtaining a copy
+of this software and associated documentation files (the "Software"), to deal
+in the Software without restriction, including without limitation the rights
+to use, copy, modify, merge, publish, distribute, sublicense, and/or sell
+copies of the Software, and to permit persons to whom the Software is
+furnished to do so, subject to the following conditions:
+
+The above copyright notice and this permission notice shall be included in all
+copies or substantial portions of the Software.
+
+THE SOFTWARE IS PROVIDED "AS IS", WITHOUT WARRANTY OF ANY KIND, EXPRESS OR
+IMPLIED, INCLUDING BUT NOT LIMITED TO THE WARRANTIES OF MERCHANTABILITY,
+FITNESS FOR A PARTICULAR PURPOSE AND NONINFRINGEMENT. IN NO EVENT SHALL THE
+AUTHORS OR COPYRIGHT HOLDERS BE LIABLE FOR ANY CLAIM, DAMAGES OR OTHER
+LIABILITY, WHETHER IN AN ACTION OF CONTRACT, TORT OR OTHERWISE, ARISING FROM,
+OUT OF OR IN CONNECTION WITH THE SOFTWARE OR THE USE OR OTHER DEALINGS IN THE
+SOFTWARE.
+
+---
+
+IMPORTANT NOTICE - COMMERCIAL USE RESTRICTIONS
+
+This software is provided for educational and portfolio demonstration purposes.
+While the MIT License allows for commercial use, the following restrictions apply:
+
+1. COMMERCIAL COMPETITION: You may not use this software to create a competing
+   travel recommendation or adventure planning application that directly
+   competes with AdoreVenture or its business model.
+
+2. BUSINESS LOGIC PROTECTION: The core business logic, algorithms, and
+   proprietary features of AdoreVenture remain protected intellectual property.
+   This includes but is not limited to:
+   - AI recommendation algorithms
+   - User experience flows
+   - Subscription and payment systems
+   - Data processing methodologies
+
+3. TRADEMARK PROTECTION: "AdoreVenture" and related trademarks remain the
+   exclusive property of Dagmawi Mulualem and may not be used without
+   explicit written permission.
+
+4. DATA AND CONTENT: Any user-generated content, business data, or proprietary
+   information remains protected and may not be used or reproduced.
+
+5. REVERSE ENGINEERING: You may not reverse engineer, decompile, or disassemble
+   the software for the purpose of creating competing products.
+
+If you wish to use this software for commercial purposes that may compete with
+AdoreVenture, please contact dagmawi.m.mulualem@gmail.com for licensing
+discussions.
+
+By using this software, you acknowledge that you have read and agree to these
+terms and conditions.
+
+---
+
+PORTFOLIO USE
+
+This repository is intended to demonstrate technical skills and development
+capabilities for employment purposes. Employers and recruiters may:
+
+- Review the code for technical assessment
+- Understand the developer's capabilities
+- Evaluate coding style and architecture decisions
+
+However, they may not:
+- Use the code to build competing products
+- Extract business logic for commercial use
+- Reproduce the user experience or features
+
+For any questions about usage rights, please contact:
+dagmawi.m.mulualem@gmail.com
